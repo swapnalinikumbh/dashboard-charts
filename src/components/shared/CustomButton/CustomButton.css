@@ -1,0 +1,18 @@
+.custom-button-container {
+}
+button {
+  background-color: white;
+  border-radius: 1rem;
+  border: transparent !important;
+  padding: 0.2rem 0.75rem;
+  box-shadow: 0px 2px 4px rgba(74, 79, 196, 0.25);
+  min-width: max-content;
+}
+.custom-button-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  min-width: 72px;
+  /* font-size: 0.8rem; */
+}

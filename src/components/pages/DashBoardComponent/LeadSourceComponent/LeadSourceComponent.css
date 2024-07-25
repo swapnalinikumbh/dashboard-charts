@@ -1,0 +1,37 @@
+.horizontal-bar-container {
+  min-width: 100%;
+  /* max-width: 515px; */
+  background-color: white;
+  /* min-width: 55%; */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 310px;
+  padding: 10px;
+}
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+  canvas {
+    height: 260px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  canvas {
+    height: 280px !important;
+  }
+}
+@media only screen and (min-width: 660px) and (max-width: 768px) {
+  canvas {
+    height: 250px !important;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .horizontal-bar-container {
+    width: 300px;
+    height: 250px;
+  }
+  canvas {
+    height: 200px !important;
+  }
+}

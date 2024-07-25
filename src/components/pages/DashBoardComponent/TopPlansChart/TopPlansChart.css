@@ -1,0 +1,16 @@
+.top-plans-container {
+  min-width: 100%;
+  /* max-width: 515px; */
+  background-color: white;
+  /* min-width: 55%; */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 310px;
+  padding: 10px;
+}
+canvas {
+  height: 230px !important;
+  width: 100% !important;
+}

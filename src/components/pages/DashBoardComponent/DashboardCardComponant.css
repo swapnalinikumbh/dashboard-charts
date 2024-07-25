@@ -1,0 +1,33 @@
+.dashboard-first-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.leads-fix-height-class {
+}
+.dashboard-select-bar-menu-list {
+  width: 140px;
+  max-width: 150px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  border-radius: 50px;
+  border: 1px solid var(--lgi-dark-teal);
+  color: var(--lgi-dark-teal);
+}
+.dashboard-select-bar-menu-list:focus {
+  outline: none;
+}
+.height-horizontal-bar {
+  height: 400px;
+  canvas {
+    height: 300px !important;
+  }
+}
+.download-btn {
+  border-radius: 100%;
+  background-color: var(--lgi-dark-gray-5);
+  min-width: 38px !important;
+  height: 38px;
+}
